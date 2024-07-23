@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    color: #333;
 }
 
 header {
@@ -14,16 +15,25 @@ header {
 h1 {
     margin: 0;
     font-size: 2.5em;
+    font-weight: bold;
 }
 
 h2 {
-    color: #333;
-    border-bottom: 2px solid #333;
+    color: #0056b3;
+    border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
+    margin-top: 30px;
+    font-size: 1.5em;
 }
 
 h3 {
     margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
 }
 
 ul {
@@ -31,8 +41,12 @@ ul {
     padding: 0;
 }
 
-.skills {
+ul.skills {
     padding-left: 20px;
+}
+
+ul.skills li {
+    margin-bottom: 10px;
 }
 
 .skills .stars {
@@ -46,7 +60,7 @@ footer {
 }
 
 a {
-    color: #0366d6;
+    color: #0056b3;
     text-decoration: none;
 }
 
