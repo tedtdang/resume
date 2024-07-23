@@ -1,5 +1,5 @@
 title: Nghia Dang Resume
 description: Resume of Nghia Dang
-baseurl: ""
+baseurl: "resume"
 url: "https://tedtdang.github.io"
 theme: jekyll-theme-cayman
